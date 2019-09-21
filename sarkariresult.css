@@ -1,6 +1,6 @@
 body
 {
-background-image:url("sagar3");
+
 }
 
 .jj
@@ -48,15 +48,14 @@ padding-bottom:8px;
 
 th.a
 {
-background-color:#996699;
+background-color:#991ff9;
 padding-left:100px;
 padding-right:100px;
 padding-top:40px;
 padding-bottom:40px;
 font-size:40;
 color:#ffffff;
-text-shadow:3px 3px 5px #444444;
-font-family:lucida fax;
+font-family:Roboto;
 }
 
 
@@ -65,12 +64,11 @@ font-family:lucida fax;
 		  background-color: black;
 		  color: white;
 		  padding: 12px;
-		  font-size: 16px;
 		  border: none;
 		  cursor: pointer;
 		  width: 125px;
-		  font-family: aliquam;
-		  font-size: 20px;
+		  font-family: Roboto;
+		  font-size: 15px;
 		  border: white 1px;
 		  border-right-style: groove;
 		  border-left-style: groove;
@@ -96,7 +94,7 @@ font-family:lucida fax;
 	padding-bottom: 16px;
   text-decoration: none;
   display: block;
-  font-family: aliquam;
+  font-family: Roboto;
   border-width: 1px;
   border-color: white;
   border-bottom-style: solid;
@@ -119,9 +117,11 @@ font-family:lucida fax;
 	
 	display: inline-block;
 	padding: 13px;
-	font-family: aliquam;
+	font-family: Roboto;
 	border-radius: 3px;
 	margin: 2px;
+    box-shadow: 10px 5px 10px 0px gray;
+   
 }
 .jj2
 {
@@ -132,40 +132,49 @@ font-family:lucida fax;
 .sec
 {	
 	display: inline-block;
+    width: 1100px;
+    margin-left: 11%;
 }
 .sec span
 {
-	background-color: salmon;
-	padding: 10px 40px 10px 105px;
-	color: white;
-    margin-left: 25%;
-	font-size: 27px;
-	width: 155px;
-    max-width: 170;
-	height: 18px;
-    font-size: 23px;
-    display: inline-block;
 	
+    background-color: crimson;
+    max-width: 100%;
+    height:40px;
+    font-size: 25px;
+    color: white;
+    padding-left: 90px;
+    font-family: Roboto;
+    
 }
 .sec .sec1
 {
-    border: 2px orange;
     border-style: solid;
-    height: 800px;
-    width: 300px;
-    position: absolute;
+    border-color: orange;
+    display: inline-grid;
+    width: 310px;
+    margin-left:2%;
+    max-height: 1000px;
+    height: auto;
+    box-shadow: 10px 5px 5px 0px #232356;  
+
 }
 .sec1 ul
 {
+    font-size: 18px;
+    max-width: 100%;
+    font-family: Quicksand;
+    line-height: inherit;
+   
     
-    font-size: 20px; 
-    top: 30px;
-    max-width:400px;
-    position: relative;
 }
 ul a 
 {
     
-    font-family: Ek Mukta;
-    
+    color:blue;
+    padding-bottom: ;
+}
+li
+{
+    padding-bottom: 13px;
 }
